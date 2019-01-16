@@ -215,7 +215,7 @@ blockquote p::after
     margin-bottom: 8px;
 }
 
-.article-autor
+.article-author
 {
     font-family: 'Cheltenham';
     text-align: center;
@@ -224,7 +224,7 @@ blockquote p::after
     font-weight: bold;
 }
 
-.article-autor-description
+.article-author-description
 {
     font-family: 'Cheltenham';
     text-align: center;
