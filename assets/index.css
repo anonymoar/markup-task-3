@@ -1,33 +1,47 @@
 h2
 {
+    margin: 0;
+
     font-family: 'Cheltenham';
     font-size: 24px;
-    margin: 0;
     text-align: justify;
 }
 
 h3
 {
-    text-align: justify;
+    margin: 0;
+
     font-family: 'Schnyder Scond';
     font-size: 20px;
-    margin: 0;
+    text-align: justify;
 }
 
 h4
 {
-    text-align: center;
+    margin: 0;
+
     font-family: 'Magsans';
     font-size: 14px;
-    margin: 0;
+    text-align: center;
 }
 
 h5
 {
-    font-family: 'Cheltenham';
     margin: 2px 0;
+
+    font-family: 'Cheltenham';
     font-size: 12px;
     text-align: center;
+}
+
+blockquote p::before
+{
+    content: '\201C';
+}
+
+blockquote p::after
+{
+    content: '\201D';
 }
 
 .newspaper
@@ -46,16 +60,6 @@ h5
     width: 170px;
     display: inline-block;
     margin-left: 6px;
-}
-
-blockquote p::before
-{
-    content: '\201C';
-}
-
-blockquote p::after
-{
-    content: '\201D';
 }
 
 .slogan-text
